@@ -174,7 +174,7 @@ h2 {
         text-align: center;
     }
     .iphone-img{
-        position: static;
+        position: block;
         transform: rotate(0);
     }
 }
