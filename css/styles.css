@@ -1,16 +1,26 @@
+
+
+
+
+*{
+    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family: 'Montserrat';
     font-weight: 500;
+    width: 100%;
+   
 }
 
 
-
 #title{
+   
     background-color: #ff4c68;
  }
- /*     font-family: 'Montserrat', sans-serif;
-font-family: 'Ubuntu', sans-serif;
-*/
+
 
 
 .container-fluid{
@@ -64,11 +74,16 @@ h1 {
 }
 
 #features{
+    
     background-color: #fff;
     /* margin: 7rem 15rem; */
 
    
     position: relative;
+}
+
+.row{
+    width: 100%;
 }
 
 h2 {
@@ -120,11 +135,16 @@ h2 {
 }
 
 #press{
+    
     background-color: #ef8172;
     text-align: center;
-    padding-bottom: 3%;
+    padding: 7% 15%;
+   
 }
 
+.press-logo-container{
+    margin-inline:15px ;
+}
 
 .press-logo{
     width: 15%;
@@ -169,7 +189,7 @@ h2 {
     margin-inline: 8px;
     color: black;
 }
-@media screen and (max-width:978px ) {
+@media screen and (max-width:1100px ) {
     h1{
         font-size: 2em;
     }
