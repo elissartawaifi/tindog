@@ -1,0 +1,180 @@
+body {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+
+
+#title{
+    background-color: #ff4c68;
+ }
+ /*     font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+
+.container-fluid{
+    padding: 3% 15% 8%;
+}
+h1 {
+ font-family: 'Montserrat' , sans-serif;
+ font-weight: 900;
+ color:#fff;
+ font-size: 3.5rem;
+ line-height: 1.5;
+}
+
+
+.navbar{
+    
+    padding: 0 0 4.5rem;
+}
+
+.navbar .container-fluid{
+    padding: 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu' , sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding:0  18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+.download-btn {
+    margin: 2rem 0.5rem;
+}
+
+
+.iphone-img{
+    width: 60%;
+    transform: rotate(25deg)  ;
+    position: absolute;
+   right: 30%;
+ 
+}
+
+#features{
+    background-color: #fff;
+    /* margin: 7rem 15rem; */
+
+   
+    position: relative;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+ h3 {
+  
+    font-family: 'Montserrat' , sans-serif;
+     font-weight: 700;
+    
+}
+
+.feature-box {
+    text-align: center;
+    padding :6% ;
+}
+
+
+
+.icon{
+    font-size: 4rem;
+     color: #ef8172;
+     margin-bottom: 1.5rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-img{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+#pricing {
+    padding:100px; 
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+
+}
+#cta {
+    padding:7% 15%;
+    background-color: #ff4c68;
+    color:#fff;
+    text-align: center;
+}
+
+.cta-title{
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    padding-inline: 8%;
+}
+
+#footer{
+    padding:7% 15%;
+    text-align: center;
+    color: grey;
+}
+
+.footer-icons{
+    margin-bottom: 30px;
+    
+}
+.footer-icon{
+    margin-inline: 8px;
+    color: black;
+}
+@media (max-width:978px ) {
+    #title{
+        text-align: center;
+    }
+    .iphone-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
