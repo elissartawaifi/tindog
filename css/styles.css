@@ -169,12 +169,26 @@ h2 {
     margin-inline: 8px;
     color: black;
 }
-@media (max-width:1073px ) {
+@media screen and (max-width:978px ) {
+    h1{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 1.5em;
+    }
+
+
+    h3{
+        font-size: 1em;
+    }
     #title{
         text-align: center;
     }
     .iphone-img{
-        position: block;
+        position: static;
         transform: rotate(0);
     }
+
+  
 }
