@@ -169,7 +169,7 @@ h2 {
     margin-inline: 8px;
     color: black;
 }
-@media (max-width:1080px ) {
+@media (max-width:1073px ) {
     #title{
         text-align: center;
     }
